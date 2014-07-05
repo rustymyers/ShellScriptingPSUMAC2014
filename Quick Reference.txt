@@ -1,0 +1,69 @@
+Terminal Tricks
+	Ctrl-C = Interrupt/Kill
+	Ctrl-D = Close Shell
+	Ctrl-e = Move cursor to EOL
+	Ctrl-a = Move cursor to BOL
+	Ctrl-l = Clear Screen
+	Ctrl-w = Delete 1 Previous Word
+	Up down arrows
+	tab autocomplete
+	
+Commands
+	man
+	pwd
+	cat
+	help
+	cd
+	history
+	clear
+	ls
+	mkdir
+	cp
+	ln
+	echo
+	chmod
+	chown
+	unset
+	systemsetup
+	sw_vers
+	file
+	id
+	networksetup
+	sysetm_profiler
+	grep
+	head
+	tail
+	awk
+	diskutil
+	sed
+	tr
+	let
+	if
+	while
+	for
+	defaults
+	installer
+	exit
+	deseditgroup
+	case
+	read
+	pkgutil
+	source
+	
+Arguments
+	$0
+	$1-$9
+	$*
+	$@
+	
+Redirection
+	| = pipe
+	>
+	>>
+	<
+	
+Paths
+	~ = User's Home
+	. = Current Directory
+	.. = One Directory Up
+
