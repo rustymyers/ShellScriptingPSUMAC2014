@@ -12,6 +12,8 @@ Commands
 	man
 	pwd
 	cat
+	sleep
+	date
 	help
 	cd
 	history
@@ -36,12 +38,14 @@ Commands
 	grep
 	head
 	tail
+	pmset
 	awk
 	diskutil
 	sed
 	tr
 	let
 	if
+	softwareupdate
 	while
 	for
 	plutil
@@ -53,6 +57,16 @@ Commands
 	read
 	pkgutil
 	source
+	find
+	mdfind
+	launchctl
+	bless
+	hdiutil
+	pkgbuild
+	mdfind
+	bless
+	launchctl
+	find
 	
 Arguments
 	$0
@@ -74,12 +88,3 @@ Paths
 Slides Made, not added:
 	hdiutil
 	pkgbuild
-	mdfind
-	softwareupdate
-	pmset
-	tmutil
-	bless
-	launchctl
-	sleep
-	find
-	
