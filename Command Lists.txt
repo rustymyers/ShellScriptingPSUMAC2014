@@ -45,6 +45,8 @@ Commands
 	diskutil
 	sed
 	tr
+	tee
+	sort
 	let
 	if
 	softwareupdate
