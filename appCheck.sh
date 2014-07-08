@@ -5,4 +5,8 @@ if [[ "${AppName}" == *.app ]]; then
 	echo "$AppName"
 fi
 
-system_profiler SPApplicationsDataType|grep -i -A 9 "$AppName"
+Custom_appname="$(echo $AppName| sed s/.app/:/)"
+
+echo "$Custom_appname"
+
+system_profiler SPApplicationsDataType|grep -i -A 9 "$Custom_appname"
