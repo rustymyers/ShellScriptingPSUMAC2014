@@ -1,0 +1,275 @@
+    1  whoami
+    2  dscl . read /Groups/admin
+    3  sudo dscl . read /Groups/admin
+    4  dscl . read /Groups/admin
+    5  dscl . read /Users/rzm102
+    6  id 20
+    7  apropos group id
+    8  groups 20
+    9  man groups
+   10  groups 20
+   11  apropos group id
+   12  dscl . read /Groups/20
+   13  getgid 20
+   14  man -K group id
+   15  man -K group
+   16  man -K group
+   17  man -k group
+   18  groups
+   19  man groups
+   20  man id
+   21  whoami
+   22  echp $PATH
+   23  echo $PATH
+   24  PlistBuddy 
+   25  PlistBuddy 
+   26  listBuddy
+   27  PlistBuddy 
+   28  whoami
+   29  https://docs.google.com/spreadsheet/viewform?usp=drive_web&formkey=dE9ib2lSSjlwaWVOLXpBYUExbkNSaFE6MA#gid=0
+   30  echo 'system version' | /Applications/Utilities/QnA.app/Contents/Resources/QnA
+   31  exit
+   32  echo "
+   33  "
+   34  su rzm102
+   35  sudo -s
+   36  whoami
+   37  cat /dev/console 
+   38  ls /dev/console 
+   39  ls -l /dev/console 
+   40  ksh
+   41  csh
+   42  sh
+   43  exit
+   44  export No_value=10
+   45  echo $No_value
+   46  exit
+   47  echo $OSVersion
+   48  exit
+   49  ps
+   50  /Users/presenter/Desktop/ShellScriptingPSUMAC2014/inventory.command ; exit;
+   51  ps
+   52  ps axxx
+   53  ps axx
+   54  ps axx | grep Keynote
+   55  ps axx | grep Keynote| grep -v grep
+   56  ps axx | grep Keynote| grep -v grep
+   57  ps axx | grep Keynote| grep -v grep|awk '{pront $1}'
+   58  ps axx | grep Keynote| grep -v grep|awk '{print $1}'
+   59  ps axx | grep Keynote| grep -v grep|awk '{print $1}'; open /Applications/Keynote.app/
+   60  set the big brown fox
+   61  echo $2
+   62  echo $*
+   63  echo $0
+   64  echo $1
+   65  echo $2 $3
+   66  cat Arguments.sh 
+   67  vi Arguments.sh 
+   68  ls
+   69  ./Arguments.sh  zed1 zed2
+   70  ls
+   71  vi Arguments.sh 
+   72  ./Arguments.sh  zed3 zed4
+   73  ls
+   74  vi Arguments.sh 
+   75  ./Arguments.sh  zed6 zed7
+   76  ls
+   77  ls -l
+   78  vi Arguments.sh 
+   79  ./Arguments.sh  zed8 zed9
+   80  ls
+   81  sw_vers
+   82  man sw_vers
+   83  sw_vers -productVersion
+   84  sw_vers -productVersion | awk -F. '{print $2}'
+   85  if [[ 9 >= 9 ]]; then
+   86  num=0
+   87  while [[ $num -lt 5 ]]; do echo $num; ((num++); ((num++))
+   88  while [[ $num -lt 5 ]]; do echo
+   89  while [[ $num -lt 5 ]]; do echo $num; ((num++)); done
+   90  while true; do ls -l /dev/console; sleep 5; done
+   91  while read PathName; do file $PathName; echo ""; sleep 2; done < /etc/paths
+   92  ./appCheck.sh Keynote.app
+   93  ./appCheck.sh Safari.app
+   94  cat appCheck.sh 
+   95  system_profiler SPApplicationsDataType
+   96  vi appCheck.sh 
+   97  ./appCheck.sh Safari.app
+   98  vi appCheck.sh 
+   99  open -e appCheck.sh 
+  100  vi appCheck.sh 
+  101  open -e appCheck.sh 
+  102  vi appCheck.sh 
+  103  ./appCheck.sh Safari.app
+  104  vi appCheck.sh 
+  105  ./appCheck.sh Safari.app
+  106  dseditgroup -o checkmember -m presenter admin
+  107  dseditgroup -o checkmember -m presenter admin
+  108  dseditgroup -o checkmember -m presenter admin
+  109  echo $?
+  110  adminme=$(dseditgroup -o checkmember -m presenter admin)
+  111  echo $adminm
+  112  echo $adminme
+  113  man id
+  114  id
+  115  dseditgroup -o checkmember -m presenter admin
+  116  dseditgroup -o checkmember -m admin admin
+  117  echo $?
+  118  dseditgroup -o checkmember -m presenter terminal
+  119  echo $?
+  120  dseditgroup -o checkmember -m guest admin
+  121  echo $?
+  122  man dseditgroup
+  123  networksetup -getinfo Ethernet
+  124  networksetup -getinfo Wi-Fi
+  125  ./inventory.sh 
+  126  ./inventory.sh 
+  127  time ls
+  128  man pusjd
+  129  man pushd
+  130  help pushd
+  131  help popd
+  132  dirs
+  133  help pushd
+  134  clear
+  135  man man
+  136  man man
+  137  man diskutil
+  138  man diskutil
+  139  man diskutil
+  140  man man
+  141  cd ;ls
+  142  cd /Library/;ls
+  143  cd /tmp ; ls
+  144  cd /tmp ; ls
+  145  man mv
+  146  man rm
+  147  man rm
+  148  cd ~
+  149  clear
+  150  ls /Volumes/
+  151  ls -l /Volumes/
+  152  clear
+  153  man scp
+  154  ls -li /bin/bash 
+  155  ls -li /bin/sh
+  156  man locate
+  157  man find
+  158  open ~/Desktop/
+  159  ls
+  160  cd Desktop/
+  161  ls
+  162  cd Shell
+  163  cd ShellScriptingPSUMAC2014/
+  164  ls
+  165  ls [a-z]*
+  166  ls [a-Z]*
+  167  ls [a-z]*
+  168  ls [A-Z]*
+  169  ls [A-Z]* | grep Zed
+  170  echo '
+  171  hello
+  172  goodbye
+  173  later
+  174  '
+  175  echo "
+  176  THis is a new line"
+  177  echo $No_value
+  178  echo $No_value
+  179  echo ${No_value:?"no values here"}
+  180  whoami
+  181  sudo -s
+  182  sh
+  183  ksh
+  184  zsh
+  185  clear
+  186  bash ls
+  187  echo $No_value
+  188  echo $No_value
+  189  bash
+  190  echo $No_value
+  191  man export
+  192  help export
+  193  clear
+  194  vi inventory.sh 
+  195  echo $OSVersion
+  196  ./inventory.sh 
+  197  echo $OSVersion
+  198  vi inventory.sh 
+  199  ./inventory.sh 
+  200  echo $OSVersion
+  201  echo $OSVersion
+  202  OSVersion="10.0"
+  203  bash
+  204  env
+  205  OSVersion="10.0"
+  206  vi inventory.sh 
+  207  OSVersion="10.0"
+  208  echo $OSVersion
+  209  ./inventory.sh 
+  210  echo $OSVersion
+  211  networksetup -listallhardwareports
+  212  HARDWARE=$(networksetup -listallhardwareports)
+  213  echo $HARDWARE
+  214  networksetup -listallhardwareports
+  215  HARDWARE=$(networksetup -listallhardwareports)
+  216  echo $HARDWARE
+  217  man echo
+  218  ls
+  219  vi MyVariables
+  220  cat MyVariables 
+  221  vi inventory.sh 
+  222  vi inventory.sh 
+  223  cat MyVariables 
+  224  source MyVariables 
+  225  echo $OSVersions
+  226  echo $OSVersion
+  227  OSVersion
+  228  OSVersion=0
+  229  echo $OSVersion
+  230  source MyVariables 
+  231  echo $OSVersion
+  232  ls
+  233  ls -G
+  234  HARDWARE=$(networksetup -listallhardwareports)
+  235  echo $HARDWARE
+  236  echo "$HARDWARE"
+  237  pmset -g
+  238  pmset -g| grep ^\ Sleep
+  239  pmset -g| grep ^\ sleep
+  240  pmset -g| grep ^\ disk*
+  241  pmset -g| grep ^\ dis*
+  242  pmset -g| grep ^\ disks\
+  243  pmset -g| grep ^\ disk*
+  244  clear
+  245  system_profiler SPHardwareDataType
+  246  system_profiler SPHardwareDataType |grep Model
+  247  system_profiler SPHardwareDataType |grep Model\ Iden*
+  248  system_profiler SPHardwareDataType |grep Model\ Iden| awk 
+  249  system_profiler SPHardwareDataType |grep Model\ Ide
+  250  system_profiler SPHardwareDataType |grep Model\ Ide| awk -F: '{print $2}'
+  251  system_profiler SPHardwareDataType |grep Model\ Ide| awk -F: '{print $2}'\
+  252  system_profiler SPHardwareDataType |grep Model\ Ide| awk -F: '{print $2}'
+  253  system_profiler SPHardwareDataType |grep Model\ Ide| awk -F': '  '{print $2}'
+  254  ls /Volumes/
+  255  man bless
+  256  system_profiler -help
+  257  system_profiler -listdatatypes
+  258  system_profiler SPSerialATADataType
+  259  system_profiler SPSerialATADataType| rep -i mount
+  260  system_profiler SPSerialATADataType| grep -i mount
+  261  system_profiler SPSerialATADataType| grep -i Vol*
+  262  networksetup -listallhardwareports
+  263  networksetup -listallhardwareports | grep -A1 Wi-Fi
+  264  networksetup -listallhardwareports | grep -A1 Wi-Fi| tail -1
+  265  networksetup -listallhardwareports | grep -A1 Wi-Fi| tail -1| awk '{print $2}'
+  266  ActiveNetwork=$(networksetup -listallhardwareports | grep -A1 Wi-Fi| tail -1| awk '{print $2}')
+  267  echo $ActiveNetowkr
+  268  echo $ActiveNetwork
+  269  cp Desktop/Archive.zip /Users/rzm102/Desktop/
+  270  sudo cp Desktop/Archive.zip /Users/rzm102/Desktop/
+  271  ls
+  272  chmod 777 /Users/rzm102/Desktop/Archive.zip
+  273  sudo chmod 777 /Users/rzm102/Desktop/Archive.zip
+  274  history
+  275  history >> ~/Desktop/history.txt
