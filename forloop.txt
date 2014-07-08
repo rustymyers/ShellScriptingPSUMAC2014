@@ -1,0 +1,28 @@
+#!/bin/sh
+for i in `cat /home/teach/stulist.d1`
+do cp -rf /home/jay/Hidden /home/$i
+done
+
+for i in `cat /home/teach/stulist.d1`
+do chown -R $i /home/$i/Hidden
+done
+
+for i in `cat /home/teach/stulist.d1`
+do chgrp -R train /home/$i/Hidden
+done
+
+for i in `cat /home/teach/stulist.d1`
+do chown -R $i /home/$i/bin
+done
+
+for i in `cat /home/teach/stulist.d1`
+do chgrp -R train /home/$i/bin
+done
+
+for i in `cat /home/teach/stulist.d1`
+do chmod -R 777 /home/$i/bin
+done
+
+for i in `cat /home/teach/stulist.d1`
+do chmod -R 000 /home/$i/Hidden
+done
